@@ -2,6 +2,8 @@
 
 GCM Master Class website redesign.
 
+I am not a good designer but I did my best to add some features like navbar to improve user experience. I also changed theme color for the site to glow and manage some fonts for the texts to become more readable.
+
 ## Getting Started
 
 Please simply click index.html for running and Enjoy!
