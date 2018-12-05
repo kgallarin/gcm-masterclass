@@ -364,10 +364,10 @@ section {
     min-height: 160px;
 }
 .team-members img{
-  max-height: 280px;
-  width: 230px;
+  max-height: 325px;
+  width: 240px;
   border-radius: 4px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .team-members .name{
