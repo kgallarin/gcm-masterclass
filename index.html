@@ -1,10 +1,714 @@
-!<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    Hello World
-  </body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GCM Masterclass</title>
+
+    <!-- Basic SEO -->
+    <meta name="description" content="Web development with html5, css3, jQuery framework">
+    <meta name="keywords" content="HTML5, CSS3, JQuery, GCM Masterclass,Master Class,GCM , Web Development, Responsive website, Masterclass, GCM">
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="65">
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <header>
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="site-nav-wrapper">
+                    <div class="navbar-header">
+                        <span id="mobile-nav-open-btn">&#9776;</span>
+                        <a class="navbar-brand smooth-scroll" href="#home">
+                            <img src="img/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <!-- Main Menu -->
+                    <div class="container">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav pull-right">
+                                <li><a class="smooth-scroll" href="#home">home</a></li>
+                                <li><a class="smooth-scroll" href="#about">strategy</a></li>
+                                <li><a class="smooth-scroll" href="#services">Services</a></li>
+                                <li><a class="smooth-scroll" href="#team">Team</a></li>
+                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="mobile-nav">
+                        <span id="mobile-nav-close-btn">&times;</span>
+
+                        <div id="mobile-nav-content">
+                          <ul class="nav">
+                            <li><a class="smooth-scroll" href="#home">home</a></li>
+                            <li><a class="smooth-scroll" href="#about">strategy</a></li>
+                            <li><a class="smooth-scroll" href="#services">services</a></li>
+                            <li><a class="smooth-scroll" href="#team">team</a></li>
+                            <li><a class="smooth-scroll" href="#contact">contact us</a></li>
+                          </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home">
+        <video id="home-bg-video" poster="video/Golden-wings.jpg" autoplay loop muted>
+            <source src="video/Golden-wings.mp4" type="video/mp4">
+            <source src="video/Golden-wings.ogv" type="video/ogg">
+            <source src="video/Golden-wings.webm" type="video/webm">
+        </video>
+        <div id="home-overlay"></div>
+        <div id="home-content">
+
+            <div id="home-content-inner" class="text-center">
+
+                <div id="home-heading">
+                    <h1 id="home-heading-1">Boost</h1><br />
+                    <h1 id="home-heading-2">your business  <span>growth</span></h1>
+                </div>
+
+                <div id="home-text">
+                    <p>How to raise capital for your START-UP OR SME</p>
+                </div>
+
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home smooth-scroll" href="#about" title="Start Now" role="button">Start Now</a>
+                </div>
+
+            </div>
+
+        </div>
+        <a href="#about" id="arrow-down" class="smooth-scroll">
+            <i class="fa fa-angle-double-down"></i>
+        </a>
+    </section>
+    <section id="about">
+        <div id="about-01">
+            <div class="content-box-lg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+
+                            <div id="about-left">
+                                <div class="vertical-heading">
+                                    <h2>Find out in this <br/><strong>3-hour LIVE</strong></h2>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 col-sm-6 wow slideInRight">
+                            <div id="about-right">
+                                <p>
+                                  Business Funding Masterclass at <strong>NO COST</strong> to you on <br />
+                                  06 Dec 2018 (Thurs) 2:30pm to 5:30pm
+                                  <br />238A Thomson Road #13-08 Novena Square, Office Tower A, Singapore 307684 (Open Network Session at 2pm)
+                                </p>
+                                <a class="btn btn-general btn-yellow" href="#services" title="Get In Touch" role="button">register now!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about-02">
+            <div class="content-box-md">
+                <div class="row">
+                    <div class="col-md-12 text-center wow slideInDown">
+                        <div class="horizontal-heading">
+                            <h5>If you are an Entrepreneur</h5>
+                            <h2>WHO</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4 wow fadeInLeft">
+                            <div class="about-item text-center">
+                                <img src="img/icons/sab.png" />
+                                <h3>Is starting a business for the first time</h3>
+                                <hr>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="2s">
+                            <div class="about-item text-center">
+                                <img src="img/icons/ncgb.png" />
+                                <h3>Needs more capital to grow your business</h3>
+                                <hr>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow fadeInRight">
+                            <div class="about-item text-center">
+                                <img src="img/icons/tdbi.png" />
+                                <h3>Has been turned down by investors</h3>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow fadeInLeft">
+                            <div class="about-item text-center">
+                                <img src="img/icons/dnawv.png" />
+                                <h3>Does not agree with the T&C proposed by a VC</h3>
+                                <hr>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-duration="2s">
+                            <div class="about-item text-center">
+                                <img src="img/icons/lti.png" />
+                                <h3>Is looking to enter into an M&A</h3>
+                                <hr>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-4 wow fadeInRight">
+                            <div class="about-item text-center">
+                                <img src="img/icons/wtbil.png" />
+                                <h3>Wants to become an industry leader</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center wow slideInDown">
+                        <div class="horizontal-heading footer">
+                            <h2>This Business Funding Masterclass is for you</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <div id="services-01">
+            <div class="content-box-lg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="horizontal-heading">
+                                <h5>GEX Ventures offers you their Business Funding Masterclass</h5>
+                                <h2>Worth $388 at <strong>NO COST</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="text-center"><strong>To give you a chance to</strong></h3>
+                            <div class="service">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="icon text-right">
+                                            <i class="fa fa-check-circle"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-9 col-sm-9">
+                                        <h5>Listen to a panel of consultants who have personally listed multiple companies</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="icon text-right">
+                                            <i class="fa fa-check-circle"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-9 col-sm-9">
+                                        <h5>Learn from their rich experience</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="icon text-right">
+                                            <i class="fa fa-check-circle"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-9 col-sm-9">
+                                        <h5>Leverage effective capital-raising information</h5>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <h4 class="text-center">You’ll also have the <strong>opportunity to network</strong> with 30 business-owners just like you.</h4>
+                            <div class="divider"></div>
+                            <h3 class="text-center">Together, you will discover how you can</h3>
+                            <div class="service">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="icon text-right">
+                                            <i class="fa fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9">
+                                        <h5>Raise millions of dollars, even if you are a startup that has yet to make any revenue or profit</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="icon text-right">
+                                            <i class="fa fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9">
+                                        <h5>Raise capital without giving up an unfair amount of equity</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3">
+                                        <div class="icon text-right">
+                                            <i class="fa fa-check-circle"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9">
+                                        <h5>Become a publicly listed company at little or no cost to you, the business owner</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-md-offset-2">
+                                <h2>Benefit from the expertise of GEX Ventures.</h2>
+                                <p>
+                                  GEX Ventures has built up what is arguably one of the largest communities of business owners and investors in Singapore and the Asia Pacific region. GEX Ventures helps entrepreneurs to transform their business models, strengthening their competitive edge and their bottom lines.
+                                </p>
+                                <p>
+                                  This means you’ll be able to globalise your business, formulate capital marketing strategies, and raise capital worldwide with the assistance of GEX Ventures.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="content-box-lg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div id="team-left">
+                            <div class="vertical-heading text-center">
+                                <h5>Who We Are</h5>
+                                <h2>Meet The<br><strong>Professional</strong> Team</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Right Side -->
+                <div class="team-members">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-3 text-center">
+                            <img src="img/team/drpatrickliew.png" alt="team member" class="img-responsive">
+                          </div>
+                          <div class="col-md-9">
+                            <p>
+                              <strong class="name"><u>Dr. Patrick Liew</u></strong>
+                              Group Chairman of GEX Ventures, Dr Patrick Liew has been the founder and CEO of two different companies which he listed on the ASX and SGX. He was the former regional CEO of a strategic advisory firm and was involved in listing the firm on the NYSE.
+                              <br /><br /> Patrick has won numerous awards including the Global Leader Award, Asia Pacific Entrepreneurship Award, and the Entrepreneur of the Year Award for Social Contributions.
+                              <br /><br />He is currently involved in helping companies transform their business models, globalise their businesses, and leverage the capital market.
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-3 text-center">
+                            <img src="img/team/willylim.png" alt="Willy Lim" class="img-responsive">
+                          </div>
+                          <div class="col-md-9 slideInRight">
+                            <strong class="name"><u>Willy Lim</u></strong>
+                            <p>
+                              Partner at GEX Ventures, Willy Lim founded a technology company where he pioneered tools that allowed them to outpace regional competitors several times over to become the leading Mobile App Developer in Singapore & Malaysia.
+                              <br /><br />
+                              Willy’s former clients include City Chain, Singapore Mint, Pet Lovers Centre, ASME, Civil Service Club Singapore and Rockwills.
+                              <br /><br />
+                              He currently works with GEX Ventures to represent OTC Markets and the Canadian Securities Exchange in the Asia Pacific region.
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-3 text-center">
+                            <img src="img/team/rexfong.png" alt="Rex Fong" class="img-responsive">
+                          </div>
+                          <div class="col-md-9">
+                            <strong class="name"><u>Rex Fong</u></strong>
+                            <p>
+                              Group Chief Financial Officer and Partner at GEX Ventures and Chartered Accountant (Singapore), Rex Fong is an accounting veteran who has worked at one of the top 10 international accounting firms.
+                              <br /><br />
+                              In an advisory capacity, Rex Fong has overseen multiple litigation support and forensic investigation engagements, and been consulted on commercial disputes. He has written Expert Reports and testified as an expert at the Singapore International Arbitration Centre, and the High Courts of Singapore and Malaysia.
+                              <br /><br />
+                              At GEX Ventures, Rex Fong manages a business unit that empowers businesses to tap the global capital market.
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-3 text-center">
+                            <img src="img/team/danielsng.png" alt="Daniels Ng" class="img-responsive">
+                          </div>
+                          <div class="col-md-9">
+                            <strong class="name"><u>Daniels Ng</u></strong>
+                            <p>
+                              Vice President at GEX Ventures, Daniels Ng is a consultant who specialises in catapulting SMEs to the next level with over 20 years of experience working with more than 80 Asia Pacific companies.
+                              <br /><br />
+                              He was commissioned by the EDB to revitalise Singapore’s then flagging SME landscape, and headed the consultancy division at the Enterprise Promotion Centre. He was also appointed business advisor by the Canberra government at the Victorian Chamber of Commerce & Industry.
+                              <br /><br />
+                              Daniels is a Certified Management Consultant with the Institute of Management Consultants (Singapore), where he is an adjunct lecturer in the Graduate Diploma programme.                            </p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="divider"></div>
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-3 text-center">
+                            <img src="img/team/drjongheesen.png" alt="Dr. Jong Heesen" class="img-responsive">
+                          </div>
+                          <div class="col-md-9">
+                            <strong class="name"><u>Dr Jong Hee Sen</u></strong>
+                            <p>
+                              Group Chief Executive Officer of GEX Ventures, Dr Jong Hee Sen has held top management positions in Education, Technology, and International Investment Management.
+                              <br /><br />
+                              A pioneering member of the National University of Singapore’s Computer Science Department, Hee Sen joined the Government of Singapore Investment Corp (GIC) Real Estate Department, where he managed over SGD3 billion in investments.
+                              <br /><br />
+                              Hee Sen has also been named among the Asia Top 100 CIO for his IT innovations. He was co-founder of two companies that he listed on the Singapore Stock Exchange, and was a member of the Singapore-China Investment Council.
+                            </p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonials">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-4 wow slideInLeft">
+
+                    <div class="vertical-heading">
+                        <h5>Learn from the GEX Ventures team</h5>
+                        <h2>Just like these Business Funding Masterclass <br><strong>Participants</strong></h2>
+                    </div>
+
+                </div>
+
+                <div class="col-md-8 col-sm-8 wow fadeIn" data-wow-duration="2s">
+
+                    <div id="testimonial-slider" class="owl-carousel owl-theme">
+                        <!-- Testimonial 01 -->
+                        <div class="testimonial">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <h3>Quality Presentations</h3>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="stars text-right">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                              <em>I learned a lot from the Business Funding Masterclass. The trainers are knowledgeable with vast past experiences in various industries. The Masterclass is really an eye opener, informative, in-depth, and beneficial be it a new startup or existing companies. I strongly encourage companies that are looking for expansion and scaling business to another level should consider giving it a shot.</em></p><p><em>I would like to thank and appreciate all the trainers for their time and effort in delivering the Masterclass. It has really exceeded my expectation. I will recommend more people to the Masterclass. With that, I wish all the best in your business endeavour.
+                              </em>
+                            </p>
+                            <div class="author">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-3 col-xs-6">
+                                        <img src="img/testimonial/client-1.jpg" alt="client" class="img-responsive img-circle">
+                                    </div>
+                                    <div class="col-md-10 col-sm-3 col-xs-6">
+                                        <div class="author-name-des">
+                                            <p>Rick Lee</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <h3>Quality Presentations</h3>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="stars text-right">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                              <em>
+                                Business Funding Masterclass starts with an end in mind. This is a very powerful positioning and also a very effective Masterclass. Very relevant for all growing businesses who want to propel their growth and most importantly, the accessibility of global markets in raising funds is made possible by a group of highly trained professionals in GEX Ventures who have been there done that. Thank you for giving me this opportunity to learn from the best.
+                              </em>
+                            </p>
+                            <div class="author">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-3 col-xs-6">
+                                        <img src="img/testimonial/client-1.jpg" alt="client" class="img-responsive img-circle">
+                                    </div>
+                                    <div class="col-md-10 col-sm-3 col-xs-6">
+                                        <div class="author-name-des">
+                                            <p>Vks Tan</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <h3>Quality Presentations</h3>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="stars text-right">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                              <em>
+                                First time I get the know how from professionals who are entrepreneurs themselves. It’s not text book answers but practical steps on how to grow my business. It’s the sincerity and passion to help entrepreneurs – this what differentiates GEX Ventures from others.
+                              </em>
+                            </p>
+                            <div class="author">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-3 col-xs-6">
+                                        <img src="img/testimonial/client-1.jpg" alt="client" class="img-responsive img-circle">
+                                    </div>
+                                    <div class="col-md-10 col-sm-3 col-xs-6">
+                                        <div class="author-name-des">
+                                            <p>Lay Yong</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <h3>Quality Presentations</h3>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                    <div class="stars text-right">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                              <em>
+                                Highly recommending Daniels for his consultation. In just a single short meeting, he gave very good insights into my companies and how we can best prepare for our journey to be listed in OTC. He also gave us very useful ideas how we can re-strategise for globalisation. Thank you Daniels.                              </em>
+                              </em>
+                            </p>
+                            <div class="author">
+                                <div class="row">
+                                    <div class="col-md-2 col-sm-3 col-xs-6">
+                                        <img src="img/testimonial/client-1.jpg" alt="client" class="img-responsive img-circle">
+                                    </div>
+                                    <div class="col-md-10 col-sm-3 col-xs-6">
+                                        <div class="author-name-des">
+                                            <p>Roland Ang</p>
+                                            <p>CEO, Zing</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Testimonials Ends -->
+
+    <!-- Contact -->
+    <section id="contact">
+
+        <div class="content-box-md">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-6">
+
+                        <!-- Contact Left -->
+                        <div id="contact-left">
+
+                            <div class="vertical-heading">
+                              <h5>Contact Us</h5>
+                                <h2>Get<br>In <strong>Touch</strong></h2>
+                            </div>
+                            <p>
+                              Let GEX Ventures help you
+                              make your business dreams come true
+                              at the Business Funding Masterclass.
+                            </p>
+
+                            <div id="offices">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                        <div class="office">
+                                            <h4>Country</h4>
+                                            <ul class="office-details">
+                                                <li><i class="fa fa-mobile"></i><span>+123 456 789</span></li>
+                                                <li><i class="fa fa-envelope"></i><span>support@gcm.com</span></li>
+                                                <li><i class="fa fa-map-marker"></i><span>Adress Here</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <ul class="social-list">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <!-- Contact Right -->
+                        <div id="contact-right">
+
+                            <form>
+                                <h4>Registration Form</h4>
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name *">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" id="email" placeholder="Email Address *">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" id="phone" placeholder="Phone No. *">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6">
+                                        <div class="form-group">
+                                            <input type="number" class="form-control" id="subject" placeholder="Seats (Maximum of 5)">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" placeholder="Message"></textarea>
+                                </div>
+
+                                <div id="submit-btn">
+                                    <a class="btn btn-general btn-yellow btn-full" href="#" title="Submit" role="button">Yes, I want GEX Ventures to help me succeed.</a>
+                                </div>
+                            </form>
+                        </div>
+                        <br />
+                        <p>
+                          <strong>PDPA Consent</strong><br />
+                          By submitting this form, you agree that OTC Asia Pacific Pte Ltd may collect, use and disclose your personal data, which you have provided in this form, for providing marketing material that you have agreed to receive, via email, text message or phone call, in accordance with the Personal Data Protection Act 2012 and our data protection policy.
+                        </p>
+
+                        <a class="btn btn-general btn-yellow btn-full" href="#" title="Submit" role="button">Terms and Conditions</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        Copyright &copy; 2018 All Rights Reserved By <span>GCM Masterclass</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="js/easing/jquery.easing.1.3.min.js"></script>
+    <script src="js/wow/wow.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
