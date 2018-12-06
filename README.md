@@ -8,7 +8,10 @@ Please enjoy!
 
 ## Getting Started
 
-Please simply click index.html for running and Enjoy!
+Please simply click index.html for running or you can view link here:
+
+https://kgallarin.github.io/gcm-masterclass/
+
 
 ## Built With
 
